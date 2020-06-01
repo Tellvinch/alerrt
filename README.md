@@ -1,4 +1,4 @@
-# newsalert
+# Newsalert
 a web application that provdes the user with the latest trending news with receipts.
 
 ## Setup/Installation Requirements
