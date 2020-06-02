@@ -1,6 +1,5 @@
 import unittest
-from models import news
-News = news.News
+from app.models import News
 
 
 class NewsTest(unittest.TestCase):
@@ -12,12 +11,7 @@ class NewsTest(unittest.TestCase):
         '''
         Set up method that will run before every Test
         '''
-        self.new_news = News(1, 'Guru',
-                             'Tellvinch imani', 'New awesome webapp created', 'A moringa school student creates an awesome website for news','2020-06-01T04:41:16Z' )
+        self.new_news = News(1, 'dope app','imani' 'A new web app','thrilling','00675')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_news, News))
-
-
-if __name__ == '__main__':
-    unittest.main()
